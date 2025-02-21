@@ -24,5 +24,5 @@ Run the pipeline with:
    python main.py --dataset /path/to/images.npy --labels /path/to/labels.npy --output_dir /path/to/output
    ```
 
-
+## Samples of the Microscopic images
 ![screenshot](sample.png)
