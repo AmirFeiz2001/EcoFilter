@@ -20,6 +20,9 @@ This project performs image classification using VGG16 for feature extraction an
 
 ## Usage
 Run the pipeline with:
-```bash
-python main.py --dataset /path/to/images.npy --labels /path/to/labels.npy --output_dir /path/to/output
+   ```bash
+   python main.py --dataset /path/to/images.npy --labels /path/to/labels.npy --output_dir /path/to/output
+   ```
 
+
+![screenshot](sample.png)
