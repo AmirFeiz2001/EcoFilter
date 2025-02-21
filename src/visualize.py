@@ -5,14 +5,7 @@ from skimage import measure
 from datetime import datetime
 
 def plot_confusion_matrix(y_true, y_pred, output_dir="output/plots"):
-    """
-    Plot and save confusion matrix.
 
-    Args:
-        y_true (np.ndarray): True labels.
-        y_pred (np.ndarray): Predicted labels.
-        output_dir (str): Directory to save the plot.
-    """
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
@@ -26,15 +19,7 @@ def plot_confusion_matrix(y_true, y_pred, output_dir="output/plots"):
     print(f"Confusion matrix saved to {output_dir}")
 
 def compare_images(imageA, imageB, title, output_dir="output/plots"):
-    """
-    Compare two images and save the result.
 
-    Args:
-        imageA (np.ndarray): First image.
-        imageB (np.ndarray): Second image.
-        title (str): Plot title.
-        output_dir (str): Directory to save the plot.
-    """
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
 
