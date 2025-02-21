@@ -1,0 +1,8 @@
+numpy
+matplotlib
+seaborn
+opencv-python
+tensorflow
+scikit-learn
+xgboost
+scikit-image
