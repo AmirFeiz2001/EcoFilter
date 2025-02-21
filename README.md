@@ -11,8 +11,8 @@ This project performs image classification using VGG16 for feature extraction an
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/AmirFeiz2001/image_classification_vgg_xgb.git
-   cd image_classification_vgg_xgb
+   git clone https://github.com/AmirFeiz2001/EcoFilter.git
+   cd EcoFilter
 
 2. Install dependencies:
    ```bash
